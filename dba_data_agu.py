@@ -123,7 +123,7 @@ def concat_pd(df1, df2, columns):
 
 if __name__:
     # original_path = r"/Users/whq/Public/codeDemo/lstm_improve/data/original.csv"
-    original_path = r"/Users/whq/Public/codeDemo/lstm_improve/data/cmcampus_export.csv"
+    original_path = r"/data/ies_month_data.csv"
     columns = ['GHG','Total#Houses','Totallightbulbs','Totalgalsgas','DOW']
     # columns = ['KWS', 'KW', 'KW#Houses','KWlightbulbs',  'KWgalsgas']
     # pd.read_csv("somefile.csv", dtype={'column_name': str})

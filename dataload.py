@@ -1,10 +1,5 @@
 
-import matplotlib.pyplot as plt
-from keras.models import Sequential
-# from keras.optimizers import adam_v2
-# adam = adam_v2.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
-from keras.optimizers import Adam
-from metrics import *
+
 from sklearn.preprocessing import MinMaxScaler
 from keras.layers import Dense, Dropout,LSTM,RNN,SimpleRNN
 import numpy as np
